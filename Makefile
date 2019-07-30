@@ -2,11 +2,11 @@
 	docker-build docker-push \
 	docker-run
 
-DOCKER_TAG_VERSION ?= staging-latest
+DOCKER_TAG_VERSION ?= prod-latest
 DOCKER_TAG_C ?= pratikmahajan/twitter-stream-source:${DOCKER_TAG_VERSION}
 
 
-NAMESPACE ?= test-app
+NAMESPACE ?= twite
 POD ?= staging-twitter-source
 PROD_POD ?= prod-twitter-source
 
